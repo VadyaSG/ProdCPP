@@ -29,7 +29,7 @@ public:
 	{
 		if (this != &other)
 		{
-			int* new_arr = new int[other.size];
+			
 			for (int i{ 0 }; i < index; ++i)
 			{
 				arr[i] = other.arr[i];
@@ -78,4 +78,5 @@ int main()
 	
 		arr = new_array;
 	return 0;
+
 }
